@@ -1,6 +1,9 @@
 # runescraper
 
-requires go and node
+requires go, node, mariadb
+
+first restore the mariadb database in backend/cmd/runescape.sql
+change the environment variables in backend/cmd/main/main.go to your db user and password
 
 `cd backend`
 
